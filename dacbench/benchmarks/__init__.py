@@ -7,6 +7,7 @@ from dacbench.benchmarks.modcma_benchmark import ModCMABenchmark
 from dacbench.benchmarks.sgd_benchmark import SGDBenchmark
 from dacbench.benchmarks.toysgd_benchmark import ToySGDBenchmark
 from dacbench.benchmarks.onell_benchmark import OneLLBenchmark
+from dacbench.benchmarks.de_benchmark import DEBenchmark
 
 __all__ = [
     "LubyBenchmark",
@@ -18,4 +19,5 @@ __all__ = [
     "SGDBenchmark",
     "OneLLBenchmark",
     "ToySGDBenchmark",
+    "DEBenchmark",
 ]

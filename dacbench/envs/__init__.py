@@ -2,6 +2,7 @@ from dacbench.envs.luby import LubyEnv, luby_gen
 from dacbench.envs.sigmoid import SigmoidEnv, ContinuousSigmoidEnv, ContinuousStateSigmoidEnv
 from dacbench.envs.fast_downward import FastDownwardEnv
 from dacbench.envs.cma_es import CMAESEnv
+from dacbench.envs.de_es import DEEnv
 from dacbench.envs.cma_step_size import CMAStepSizeEnv
 from dacbench.envs.modea import ModeaEnv
 from dacbench.envs.sgd import SGDEnv
@@ -20,4 +21,5 @@ __all__ = [
     "SGDEnv",
     "OneLLEnv",
     "ModCMAEnv",
+    "DEEnv",
 ]
